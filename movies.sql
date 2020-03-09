@@ -1,7 +1,7 @@
 
 DROP table films;
 Create Table films (
-	 id int unique auto_increment,
+	 id int primary key auto_increment,
     title varchar(20),
     duur float,
     datum date,
