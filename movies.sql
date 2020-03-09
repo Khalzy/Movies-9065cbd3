@@ -7,7 +7,7 @@ Create Table films (
     datum date,
     land varchar(20),
     omschrijving varchar (80),
-    TrailerId varchar(60)
+    TrailerId varchar(512)
     
 );
 
