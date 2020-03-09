@@ -2,12 +2,13 @@
 DROP table films;
 Create Table films (
 	 id int primary key auto_increment,
-    title varchar(20),
-    duur float,
-    datum date,
+    title varchar(20) NOT NULL,
+    duur varchar(20) NOT NULL,
+    bezoekers int,
+    datum  date,
     land varchar(20),
-    omschrijving varchar (80),
-    TrailerId varchar(512)
+    omschrijving varchar (80) NOT NULL,
+    TrailerId varchar(512) NOT NULL
     
 );
 
